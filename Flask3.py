@@ -25,7 +25,7 @@ def save_users(users):
 def initialize_first_user():
     users = load_users()
     if not users:
-        hashed_password = generate_password_hash('admin123')
+        hashed_password = generate_password_hash('adminadmin')
         users['admin'] = {
             'password': hashed_password,
             'registered': datetime.now().isoformat(),
