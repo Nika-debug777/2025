@@ -7,7 +7,7 @@ import json, os
 from datetime import datetime
 
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'
+app.secret_key = 'supersecretkey123'
 
 JSON_PATH = 'users.json'
 
